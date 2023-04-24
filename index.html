@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+    <title>FLAPPY GAME</title>
+</head>
+<body>
+    <div id="end-game">
+        <h1 id="game-over">GAME OVER !!!</h1>
+        <p> Score <span id="end-score"></span></p>
+        <p> Best: <span id="best-score"></span></p>
+    <button id="restart-button">Restart</button>
+    </div>
+    <div id="game-container" >
+        <canvas id="game-canvas" width="400px" height="700px"></canvas>
+        <div id="score-display"></div>
+    
+    </div>
+<script src="./src/js/juego.js"></script>
+</body>
+</html>
