@@ -27,7 +27,7 @@ let scored = false;
 let highScore = 0;
 
 document.body.onkeyup = function (e) {
-  if (e.code == "Space") {
+  if (e.code == "KeyA") {
     naveVelocity = FLAP_SPEED;
   }
 };
